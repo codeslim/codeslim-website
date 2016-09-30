@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	{% include head.html %}
+	<body>
+		{% include header.html %}
+		<div class="page-content">
+			<div class="wrap">
+				{{ content }}
+			</div>
+		</div>
+		{% include footer.html %}
+		<script src="{{ site.baseurl }}/bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="{{ site.baseurl }}/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+	</body>
+</html>
