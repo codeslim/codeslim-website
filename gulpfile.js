@@ -45,7 +45,6 @@ gulp.task('font-awesome-icons', function() { 
         .pipe(gulp.dest(config.outputDir + '/assets/fonts')); 
 });
 
-
 gulp.task('jquery', function() { 
     return gulp.src(config.bowerDir + '/jquery/dist/jquery.min.js') 
         .pipe(gulp.dest(config.assetDir + '/js/jquery'))
