@@ -1,0 +1,17 @@
+
+/* path to glyphicons */
+//$glyphicons-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/* path to glyphicons */
+//$awesome-font-path: "/assets/fonts/font-awesome/fonts";
+
+/* any style customization must be before the bootstrap import */
+
+@import "bootstrap";
+@import "bootstrap-sprockets";
+
+@import "magnific-popup";
+@import "creative";
+
+@import "font-awesome";
+
