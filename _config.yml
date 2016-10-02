@@ -18,7 +18,7 @@ email: contato@codeslim.com.br
 description: >
   Descrição....
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://codeslim.com.br" # the base hostname & protocol for your site
+url: "https://codeslim.github.io/" # the base hostname & protocol for your site
 facebook_username: jekyllrb
 instagram_username:  jekyll
 
