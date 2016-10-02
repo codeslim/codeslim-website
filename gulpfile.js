@@ -24,6 +24,7 @@ gulp.task('bower', function() { 
 gulp.task('jekyll-build', [
     'css',
     'font-awesome-icons',
+    'js',
     'jquery',
     'bootstrap',
     'bower'
@@ -43,6 +44,12 @@ gulp.task('font-awesome-icons', function() { 
     return gulp.src(config.bowerDir + '/font-awesome/fonts/**.*') 
         .pipe(gulp.dest(config.assetDir + '/fonts'))
         .pipe(gulp.dest(config.outputDir + '/assets/fonts')); 
+});
+
+gulp.task('js', function() { 
+    return gulp.src(config.assetDir + '/js/**.*') 
+        .pipe(gulp.dest(config.assetDir + '/js'))
+        .pipe(gulp.dest(config.outputDir + '/assets/js')); 
 });
 
 gulp.task('jquery', function() { 
@@ -79,7 +86,7 @@ gulp.task('css', function() { 
         .pipe(browserSync.stream()); 
 });
 
-gulp.task('build', ['bower', 'font-awesome-icons', 'jquery', 'css', 'bootstrap', 'jekyll-build']);
+gulp.task('build', ['bower', 'font-awesome-icons', 'js', 'jquery', 'css', 'bootstrap', 'jekyll-build']);
 
 gulp.task('serve', ['build'], function() {
     browserSync.init({
