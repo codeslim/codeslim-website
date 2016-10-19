@@ -16,7 +16,30 @@
 @import "prettyPhoto";
 @import "responsive";
 
+@import 'https://fonts.googleapis.com/css?family=Orbitron';
+
+@import 'https://fonts.googleapis.com/css?family=Audiowide';
+
+@import 'https://fonts.googleapis.com/css?family=Unica+One';
+
+@import 'https://fonts.googleapis.com/css?family=Syncopate';
+
 .navbar-brand{
 	padding-top: 10%;
-	font-size: 200%;
+	font-size: 250%;
+	//font-family: 'Orbitron', sans-serif;
+	//font-family: 'Audiowide', cursive;
+	//font-family: 'Unica One', cursive;
+	font-family: 'Syncopate', sans-serif;
+}
+
+mark{
+	padding: 0%;
+	background-color: transparent;
+}
+mark.code{
+	color: #263238;
+}
+mark.slim{
+	color: #283593;
 }

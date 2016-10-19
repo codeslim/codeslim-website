@@ -15,12 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 title: CodeSlim
 email: contato@codeslim.com.br
-description: >
-  Descrição....
+description: Development of Web & Mobile apps with NodeJS, Ruby on Rails, Meteor, ReactJS, Machine Leaning and more
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://codeslim.github.io/" # the base hostname & protocol for your site
-facebook_username: jekyllrb
-instagram_username:  jekyll
+facebook_username: codeslim.tech
+instagram_username: codeslim.tech
 
 # Build settings
 markdown: kramdown
