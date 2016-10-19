@@ -99,6 +99,7 @@ a:hover {
 .navbar-default .navbar-nav>li>a {
     color: #949494;
     margin-right: 8px;
+    text-transform: uppercase;
 }
 .navbar-default .navbar-nav>li>a:hover {
     color: $dark-gray;
@@ -193,9 +194,7 @@ a:hover {
     float: left;
     width: 25%;
 }
-.tech-imgs {
-    height: 15em !important;
-}
+
 .single-portfolio a:hover {
     background: #41C8DE;
 }
