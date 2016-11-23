@@ -16,8 +16,10 @@
 title: CodeSlim
 email: contato@codeslim.com.br
 description: Development of Web & Mobile apps with NodeJS, Ruby on Rails, Meteor, ReactJS, Machine Leaning and more
+keywords: web, mobile, nodejs, ruby, rails, meteor, reactjs, machine learning, artificial intelligence
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://codeslim.github.io/" # the base hostname & protocol for your site
+url: "https://codeslim.com.br/" # the base hostname & protocol for your site
+enforce_ssl: codeslim.com.br
 facebook_username: codeslim.tech
 instagram_username: codeslim.tech
 
