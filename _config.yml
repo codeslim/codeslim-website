@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: CodeSlim
-email: contato@codeslim.com.br
+email: contact@codeslim.com.br
 description: Development of Web & Mobile apps with NodeJS, Ruby on Rails, Meteor, ReactJS, Machine Leaning and more
 keywords: web, mobile, nodejs, ruby, rails, meteor, reactjs, machine learning, artificial intelligence
 baseurl: "" # the subpath of your site, e.g. /blog
